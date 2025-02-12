@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZACKY</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/icon/partner.png" alt="logo1" class="logo-img"/>
+        <h1 class="logo-title">ZACKY</h1>
+
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#tentang">TENTANG</a></li>
+          <li><a href="https://wa.me/62895806582169" target="blank">KONTAK</a></li>
+          <li><a href="#">HOBI</a></li>
+        </ul>
+      </nav>
+      <button class="btnflw" onclick="redirInstagram()">Follow Saya</button>
+    </header>
+    <div class="container">
+      <div class="intro">
+        <p class="title">Hello, Zacky here!</p>
+        <p class="description">
+          Masih Pemula Yang Mencoba Terbiasa Dengan Keadaan Yang Ada
+        </p>
+        <img src="assets/foto/foto2.jpg" alt="Zacky foto 1" class="img-foto" />
+      </div>
+    </div>
+    <div class="parallax">
+      <div class="tentang" id="tentang">
+        <p class="title">Saya Adalah Pemula</p>
+        <p class="description">Ngoding aja dulu, jagonya belakangan.</p>
+        <div class="mt10">
+          <button class="btnflw" onclick="redirWhatsapp()">Mari Kerjasama</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <div class="carditem">
+            <img src="assets/icon/24-hours.png" alt="icon 1" class="icon" />
+            <p class="card-title">Ngoding 24/7</p>
+            <p class="card-description">
+              Programmer sejati tahu waktu bukan penghalang, tapi teman yang
+              membantu menciptakan inovasi
+            </p>
+          </div>
+          <div class="carditem">
+            <img src="assets/icon/hot-deal.png" alt="icon 2" class="icon" />
+            <p class="card-title">Murah Terpercaya</p>
+            <p class="card-description">
+              Murah bukan berarti murahan, dan terpercaya adalah harga yang tak
+              ternilai.
+            </p>
+          </div>
+          <div class="carditem">
+            <img src="assets/icon/rating.png" alt="icon 3" class="icon" />
+            <p class="card-title">Rating</p>
+            <p class="card-description">
+              Setiap rating adalah umpan balik berharga untuk terus berinovasi
+              dan memperbaiki diri.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="title">&copy; ZakyBalamba Website 2025</p>
+    </footer>
+
+    <script>
+      function redirWhatsapp(){
+        window.location.href = "https://wa.me/62895806582169"
+      }
+      function redirInstagram(){
+        window.location.href = "https://www.instagram.com/zakyblmba"
+      }
+    </script>
+  </body>
+</html>
